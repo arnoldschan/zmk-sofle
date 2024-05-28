@@ -27,6 +27,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        super {
+            bindings = <&kp LC(LA(LEFT_GUI))>;
+            key-positions = <54 53>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
