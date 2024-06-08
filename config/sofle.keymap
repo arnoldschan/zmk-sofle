@@ -23,12 +23,6 @@
     combos {
         compatible = "zmk,combos";
 
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <36 11>;
-            layers = <0>;
-        };
-
         adjust_layer {
             bindings = <&mo 2>;
             key-positions = <54 55>;
